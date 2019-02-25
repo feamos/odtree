@@ -99,12 +99,51 @@
 }
 
 div.zTreeDemoBackground {
-    width: 600px;
-    height: 450px;
-    text-align: left;
+  width: 600px;
+  height: 450px;
+  text-align: left;
 }
 
 span.search_highlight {
-    color: whitesmoke;
-    background-color: darkred;
+  color: whitesmoke;
+  background-color: darkred;
+}
+
+.ztree li {
+  padding: 1px;
+  margin: 0;
+  list-style: none;
+  line-height: 14px;
+  text-align: left;
+  white-space: nowrap;
+  outline: 0
+}
+
+.ztree li a.curSelectedNode {
+  padding-top: 0px;
+  background-color: #7C7BAD;
+  color: white;
+  height: 16px;
+  border: 1px #5f5e97 solid;
+  opacity: 0.8;
+}
+
+.ztree li span.button.noline_open {
+  background-position: -163px -2px
+}
+
+.ztree li span.button.noline_close {
+  background-position: -163px -27px
+}
+
+.ztree li span.button.ico_open {
+  display: none;
+}
+
+.ztree li span.button.ico_close {
+  display: none;
+}
+
+.ztree li span.button.ico_docu {
+  display: none;
 }
