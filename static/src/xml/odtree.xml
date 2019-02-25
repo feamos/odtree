@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+    <t t-name="Odtree">
+        <div class="o_list_view_categ col-xs-12 col-md-2">
+            <!--<div style="width: 600px;display:none">-->
+                <!--<input id="keyword" type="search" placeHolder="搜索关键字"/>-->
+            <!--</div>-->
+            <ul id="ztree" class="ztree"></ul>
+            <div class="handle_menu_arrow handle_menu_arrow_left  hidden-xs hidden-sm">
+                <i class="fas fa fa-angle-double-left"></i>
+            </div>
+        </div>
+    </t>
+
+</templates>
